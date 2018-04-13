@@ -1,0 +1,106 @@
+/*
+* @Author: Administrator
+* @Date:   2018-03-09 14:57:05
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-03-18 08:26:40
+*/
+.box{
+	width: 375px;
+	height: 667px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 30px;
+	box-shadow: 0 0 30px 2px #000;
+	position: relative;
+}
+
+.top{
+	width: 375px;
+	height: 67px;
+	border-top-left-radius: 30px;
+	border-top-right-radius:  30px;
+	background: #c8c6d1;
+	overflow:hidden;
+}
+.top_box{
+	width: 142px;
+	height: 20px;
+	margin: 21px auto 0;
+}
+.yuan{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	float: left;
+	background: black;
+	margin-top: 1px;
+}
+.heng{
+	width: 60px;
+	height: 11px;
+	background: black;
+	border-radius: 5px;
+	float: left;
+	margin: 4px 0 0 20px;
+}
+.tuoyuan{
+	width: 35px;
+	height: 17px;
+	background: black;
+	border-radius: 7px;
+	float: left;
+	margin: 1px 0 0 9px;
+}
+.window{
+	width: 335px;
+	height: 530px;
+	background: #0e070e;
+	border-left :20px solid #c8c6d1; 
+	border-right:20px solid #c8c6d1; 
+}
+.bottom{
+    width: 375px;
+    height: 70px;
+    background: #c8c6d1;
+    border-bottom-left-radius: 30px;
+	border-bottom-right-radius:  30px;
+}
+.img{
+	width: 335px;
+	height: 64px;
+	margin: 0 auto;
+	background: red;
+}
+.voice{
+	width: 6px;
+	height: 100px;
+	position: absolute;
+	right: 325px;
+	bottom: 499px;
+}
+.voiceTop{
+	width: 6px;
+	height: 50px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #fff;
+	z-index: 999;
+}
+.voiceBottom{
+	width: 6px;
+	height: 50px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	background: #fff;
+}
+.kaiji{
+	width: 6px;
+	height: 65px;
+	position: absolute;
+	left: 324px;
+	bottom: 518px;
+	background: #fff;	
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	z-index: 999;
+}
